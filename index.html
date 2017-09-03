@@ -1,19 +1,67 @@
 <html>
 <head>
 <style>
-.center {
+.header {
 	margin:auto;
+	width:70%;
+	border:3px solid #73AD21;
+	padding:5px;
+	color:red;
+	height:15%;
+	}
+.nav {
+	margin:auto;
+	width:70%;
+	border:3px solid #73AD21;
+	padding:5px;
+	color:red;
+	height:8%;}
+.content {
+	margin:1%;
 	width:60%;
 	border:3px solid #73AD21;
-	padding:10px;
-	color:red;}
+	padding:5px;
+	color:red;
+	height:88%;}
+.side {
+	margin:1%;
+	width:17.5%;
+	border:3px solid #73AD21;
+	padding:5px;
+	color:red;
+	height:88%;}
+.flex-container{
+	margin-left:13.5%;
+	height:60%;
+	display:flex;
+	align-content:center;}
+.bottom {
+	margin:auto;
+	width:70%;
+	border:3px solid #73AD21;
+	padding:5px;
+	color:red;
+	height:8%;}	
+	
 </style>
 </head>
 <body>
-<h2>center</h2>
-<p>make div</p>
-<div class="center">
-<p><b>note :</b>padding:10px 5px 5x 6x; untuk bagiannyadg</p>
-</div>
+	<div class="header">
+	<p><b><center>HEADER</center></b></p>
+	</div><br>
+	
+	<div class="nav">
+	<p><b><center>NAVIGASI</b></center></p></div><br>
+	
+<div class="flex-container">	
+	<div class="content">
+			<p><b><center>ISI</b></center></p>
+	</div>
+	<div class="side">
+			<p><b><center>SIDEBAR</b></center></p>
+	</div></div>
+	
+	<div class="bottom">
+	<p><b><center>BOTTOM</b></center></p></div><br>
 </body>
 </html>
